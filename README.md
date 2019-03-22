@@ -21,7 +21,7 @@ These two folders are symlinked into `src/templates/static/` in order to be acce
 
 ## Including javascript packages ##
 
-In order to install a JS dependency simply run `yarn add [package-name]` from within the `build/` folder.
+In order to install a JS dependency simply run `yarn add [package-name]`/`npm install [package-name]` from within the `build/` folder.
 
 To include a dependency in a JS file use the ES6 module syntax or browserify's require, for example:
 
