@@ -1,0 +1,35 @@
+.info {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 5px;
+    border-top: 1px solid $border;
+    font-family: sans-serif;
+
+    p {
+        padding-bottom: 0;
+        font-weight: bold;
+
+        &.article {
+            padding-top: 5px;
+            font-weight: normal;
+
+            a {
+                font-style: italic;
+            }
+        }
+
+        span {
+            display: block;
+            padding-top: 5px;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: normal;
+            color: $grey;
+
+            a {
+                color: $grey;
+            }
+        }
+    }
+}

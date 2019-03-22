@@ -1,27 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>{{ Project Name }}</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>Pac-Man Logo using CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/dist/css/main.css"/>
+</head>
 
-        <link rel="stylesheet" href="static/dist/css/main.css"/>
+<body>
+<div class="wrapper">
+    <div class="pacman">
+        <div class="pacman__logo">
 
-        <style>
-            body {
-                padding: 2rem 0;
-            }
-        </style>
-    </head>
+            <!-- P -->
+            <div class="p">
+                <span class="p__rectangle"></span>
+                <span class="p__curve"></span>
+                <span class="p__fill"></span>
+                <div class="p__shapes">
+                    <span class="dot"></span>
+                    <span class="curve"></span>
+                    <span class="long-curve"></span>
+                    <span class="hor-straight"></span>
+                    <span class="ver-straight"></span>
+                    <span class="long-hor-straight"></span>
+                </div>
+            </div>
+            <div class="p purple">
+                <span class="p__rectangle"></span>
+                <span class="p__curve"></span>
+                <span class="p__fill"></span>
+            </div>
+            <div class="p white">
+                <span class="p__rectangle"></span>
+                <span class="p__curve"></span>
+            </div>
 
-    <body>
-        <div class="wrapper">
-            <h1>{{ Project Name }} Templates</h1>
+            <!-- A -->
+            <div class="a">
+                <span class="a__triangle">
+                    <span class="a__triangle__fill"></span>
+                </span>
+                <div class="a__shapes">
+                    <span class="dot"></span>
+                    <span class="curve"></span>
+                    <span class="hor-straight"></span>
+                    <span class="diag-straight"></span>
+                </div>
+            </div>
+            <div class="a white">
+              <span class="a__triangle">
+                  <span class="a__triangle__fill"></span>
+              </span>
+            </div>
+            <div class="a purple">
+              <span class="a__triangle">
+                  <span class="a__triangle__fill"></span>
+              </span>
+            </div>
 
-            <ul>
-                <li><a href="home.html">Home Page</a></li>
-            </ul>
+            <!-- C -->
+            <div class="c">
+                <span class="c__outline">
+                    <span class="c__outline__fill"></span>
+                    <span class="c__outline__top-line"></span>
+                    <span class="c__outline__btm-line"></span>
+                </span>
+                <div class="c__shapes">
+                    <span class="top-straight"></span>
+                    <span class="btm-straight"></span>
+                    <span class="curve"></span>
+                    <span class="fake-white"></span>
+                </div>
+            </div>
+            <div class="c white">
+                <span class="c__outline">
+                    <span class="c__outline__fill"></span>
+                    <span class="c__outline__top-line"></span>
+                    <span class="c__outline__btm-line"></span>
+                </span>
+            </div>
+            <div class="c purple">
+                <span class="c__outline">
+                <span class="c__outline__fill"></span>
+                <span class="c__outline__top-line"></span>
+                <span class="c__outline__btm-line"></span>
+                </span>
+            </div>
+
+            <!-- HYPHEN -->
+            <div class="hyphen">
+                <div class="hyphen__hyphen"></div>
+                <div class="hyphen__hyphen white"></div>
+                <div class="hyphen__hyphen purple"></div>
+            </div>
+
+            <!-- M -->
+            <div class="m">
+                <span class="m__left">
+                    <span class="m__left__fill"></span>
+                </span>
+                <span class="m__right">
+                    <span class="m__right__fill"></span>
+                </span>
+                <div class="m__shapes">
+                    <span class="right-straight"></span>
+                    <span class="btm-straight"></span>
+                    <span class="fill"></span>
+                </div>
+            </div>
+            <div class="m white">
+                <span class="m__left">
+                    <span class="m__left__fill"></span>
+                </span>
+                <span class="m__right">
+                    <span class="m__right__fill"></span>
+                </span>
+                <div class="m__shapes">
+                    <span class="fill"></span>
+                </div>
+            </div>
+            <div class="m purple">
+                <span class="m__left">
+                    <span class="m__left__fill"></span>
+                </span>
+                <span class="m__right">
+                    <span class="m__right__fill"></span>
+                </span>
+                <div class="m__shapes">
+                    <span class="fill"></span>
+                </div>
+            </div>
+
+            <!-- A -->
+            <div class="a two">
+                <span class="a__triangle">
+                    <span class="a__triangle__fill"></span>
+                </span>
+                <div class="a__shapes">
+                    <span class="dot"></span>
+                    <span class="curve"></span>
+                    <span class="hor-straight"></span>
+                    <span class="diag-straight"></span>
+                </div>
+            </div>
+            <div class="a white white-two">
+                <span class="a__triangle">
+                    <span class="a__triangle__fill"></span>
+                </span>
+            </div>
+            <div class="a purple purple-two">
+                <span class="a__triangle">
+                    <span class="a__triangle__fill"></span>
+                </span>
+            </div>
+
+            <!-- N -->
+            <div class="n">
+                <span class="n__left">
+                    <span class="n__left__fill"></span>
+                </span>
+                <span class="n__right"></span>
+                <div class="n__shapes">
+                    <span class="right-straight"></span>
+                    <span class="btm-straight"></span>
+                    <span class="fill"></span>
+                </div>
+            </div>
+            <div class="n white">
+                <span class="n__left">
+                    <span class="n__left__fill"></span>
+                </span>
+                <span class="n__right"></span>
+                <div class="n__shapes">
+                <span class="right-straight"></span>
+                <span class="btm-straight"></span>
+                <span class="fill"></span>
+                </div>
+            </div>
+            <div class="n purple">
+                <span class="n__left">
+                    <span class="n__left__fill"></span>
+                </span>
+                <span class="n__right"></span>
+                <div class="n__shapes">
+                    <span class="right-straight"></span>
+                    <span class="btm-straight"></span>
+                    <span class="fill"></span>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+
+    <!-- Info -->
+    <div class="info">
+        <p>Pac-Man logo created using CSS only.
+            <span>By Tom Bannister | <a href="https://codepen.io/Thomas_94/" target="_blank" title="Tom Bannister on Codepen">Codepen</a> | <a href="https://github.com/tombannister94" target="_blank" title="Tom Bannister on GitHub">GitHub</a>
+            </span>
+        </p>
+    </div>
+</div>
+</body>
 </html>
