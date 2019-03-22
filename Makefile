@@ -3,5 +3,5 @@
 build:
 	cd build && yarn && yarn run build
 
-build-watch:
+watch:
 	cd build && yarn && yarn run build:watch
