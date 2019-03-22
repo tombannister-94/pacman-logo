@@ -1,8 +1,8 @@
 .pacman {
     display: block;
-    margin: 1rem 0;
     width: 905px;
     height: 210px;
+    margin: 1rem 0;
     border: 10px solid $red-border;
     border-radius: 30px;
     background-color: $orange-bg;
@@ -23,8 +23,8 @@
 .n {
     display: inline-block;
     position: relative;
-    float: left;
     height: 100%;
+    float: left;
     z-index: 3;
 }
 
@@ -46,24 +46,24 @@
         left: 80px;
         width: 80px;
         height: 75px;
-        background-color: $yellow;
         border: {
-            top-right-radius: 50%;
-            bottom-right-radius: 50%;
-            left: 0;
             top: 5px solid $black;
             right: 5px solid $black;
             bottom: 5px solid $black;
+            left: 0;
+            top-right-radius: 50%;
+            bottom-right-radius: 50%;
         }
+        background-color: $yellow;
     }
 
     &__fill {
         position: absolute;
-        background-color: $yellow;
         top: 113px;
         left: 65px;
         width: 45px;
         height: 10px;
+        background-color: $yellow;
     }
 
     &__shapes {
@@ -81,50 +81,50 @@
         }
 
         .curve {
-            width: 28px;
-            height: 28px;
             top: 60px;
             left: 94px;
-            background-color: transparent;
-            border: solid 5px $black;
-            border-color: $black transparent transparent;
-            border-radius: 70%/25px 25px 0 0;
+            width: 28px;
+            height: 28px;
             transform: rotate(150deg);
+            border: solid 5px $black;
+            border-radius: 70% / 25px 25px 0 0;
+            border-color: $black transparent transparent;
+            background-color: transparent;
         }
 
         .long-curve {
-            width: 60px;
-            height: 50px;
             top: 48px;
             left: 85px;
-            background-color: transparent;
-            border: solid 5px $black;
-            border-color: $black transparent transparent;
-            border-radius: 100%/70px 51px 0 0;
+            width: 60px;
+            height: 50px;
             transform: rotate(151deg);
+            border: solid 5px $black;
+            border-radius: 100% / 70px 51px 0 0;
+            border-color: $black transparent transparent;
+            background-color: transparent;
         }
 
         .hor-straight {
-            width: 19px;
-            height: 5px;
             top: 105px;
             left: 97px;
+            width: 19px;
+            height: 5px;
             background-color: $black;
         }
 
         .ver-straight {
-            width: 5px;
-            height: 52px;
             top: 105px;
             left: 97px;
+            width: 5px;
+            height: 52px;
             background-color: $black;
         }
 
         .long-hor-straight {
-            width: 30px;
-            height: 5px;
             top: 152px;
             left: 72px;
+            width: 30px;
+            height: 5px;
             background-color: $black;
         }
     }
@@ -186,9 +186,9 @@
         width: 0;
         height: 0;
         border: {
-            left: calc(140px / 2) solid transparent;
             right: calc(140px / 2) solid transparent;
             bottom: 140px solid $black;
+            left: calc(140px / 2) solid transparent;
         }
 
         &__fill {
@@ -197,10 +197,10 @@
             left: -62px;
             width: 0;
             height: 0;
-            border : {
-                left: 62px solid transparent;
+            border: {
                 right: 62px solid transparent;
                 bottom: 124px solid $yellow;
+                left: 62px solid transparent;
             }
         }
     }
@@ -215,20 +215,20 @@
             left: 200px;
             width: 14px;
             height: 14px;
-            background-color: $black;
             border-radius: 50%;
+            background-color: $black;
         }
 
         .curve {
-            width: 26px;
-            height: 26px;
             top: 94px;
             left: 190px;
-            background-color: transparent;
-            border: solid 5px $black;
-            border-color: $black transparent transparent;
-            border-radius: 70%/25px 25px 0 0;
+            width: 26px;
+            height: 26px;
             transform: rotate(140deg);
+            border: solid 5px $black;
+            border-radius: 70% / 25px 25px 0 0;
+            border-color: $black transparent transparent;
+            background-color: transparent;
         }
 
         .hor-straight,
@@ -253,6 +253,7 @@
 
     &.purple {
         z-index: 2;
+
         .a__triangle {
             top: 40px;
             left: 153px;
@@ -265,6 +266,7 @@
 
     &.white {
         z-index: 1;
+
         .a__triangle {
             top: 25px;
             left: 128px;
@@ -298,7 +300,7 @@
             position: absolute;
             top: -62px;
             left: -62px;
-            width: 0px;
+            width: 0;
             border: {
                 top: 62px solid $yellow;
                 right: 62px solid transparent;
@@ -317,8 +319,8 @@
             left: -8px;
             width: 67px;
             height: 5px;
-            background-color: $black;
             transform: rotate(-135deg);
+            background-color: $black;
         }
 
         &__top-line {
@@ -327,8 +329,8 @@
             left: -9px;
             width: 68px;
             height: 5px;
-            background-color: $black;
             transform: rotate(135deg);
+            background-color: $black;
         }
     }
 
@@ -339,46 +341,46 @@
         }
 
         .top-straight {
-            width: 35px;
-            height: 5px;
             top: 72px;
             left: 327px;
+            width: 35px;
+            height: 5px;
             transform: rotate(-45deg);
         }
 
         .btm-straight {
-            width: 35px;
-            height: 5px;
             top: 131px;
             left: 331px;
+            width: 35px;
+            height: 5px;
             transform: rotate(45deg);
         }
 
         .curve {
-            width: 45px;
-            height: 20px;
             top: 129px;
             left: 310px;
-            background-color: transparent;
-            border: solid 5px $black;
-            border-color: $black transparent transparent;
-            border-radius: 100%/40px 40px 0 0;
+            width: 45px;
+            height: 20px;
             transform: rotate(165deg);
+            border: solid 5px $black;
+            border-radius: 100% / 40px 40px 0 0;
+            border-color: $black transparent transparent;
+            background-color: transparent;
         }
 
         .fake-white {
-            width: 10px;
-            height: 30px;
             top: 106px;
             left: 344px;
-            background-color: $white;
+            width: 10px;
+            height: 30px;
+            transform: rotate(-45deg);
             border: {
                 top: 1px solid $black;
                 right: 5px solid $black;
                 bottom: 5px solid $black;
                 left: 5px solid $black;
             }
-            transform: rotate(-45deg);
+            background-color: $white;
             z-index: -1;
         }
     }
@@ -419,13 +421,13 @@
             }
 
             &__fill {
+                transform: scale(.9);
                 border: {
                     top-color: $purple;
                     right-color: transparent;
                     bottom-color: $purple;
                     left-color: $purple;
                 }
-                transform: scale(0.9);
             }
 
             &__top-line,
@@ -447,8 +449,8 @@
         left: 405px;
         width: 50px;
         height: 20px;
-        background-color: $yellow;
         border: 5px solid $black;
+        background-color: $yellow;
         z-index: 3;
 
         &.white {
@@ -470,10 +472,10 @@
 .m {
     &__left {
         position: absolute;
-        width: 0;
-        height: 0;
         top: 35px;
         left: 500px;
+        width: 0;
+        height: 0;
         border: {
             right: 95px solid transparent;
             bottom: 130px solid $black;
@@ -481,40 +483,40 @@
 
         &__fill {
             position: absolute;
-            top: 0px;
+            top: 0;
             left: -5px;
             width: 0;
             height: 0;
+            transform: scale(.81);
             border: {
                 right: 98px solid transparent;
                 bottom: 137px solid $yellow;
             }
-            transform: scale(.81);
         }
     }
 
     &__right {
         position: absolute;
-        width: 0;
-        height: 0;
         top: 35px;
         left: 500px;
+        width: 0;
+        height: 0;
         border: {
-            left: 95px solid transparent;
             bottom: 130px solid $black;
+            left: 95px solid transparent;
         }
 
         &__fill {
             position: absolute;
-            top: 0px;
+            top: 0;
             left: -93px;
             width: 0;
             height: 0;
-            border: {
-                left: 98px solid transparent;
-                bottom: 137px solid $yellow;
-            }
             transform: scale(.81);
+            border: {
+                bottom: 137px solid $yellow;
+                left: 98px solid transparent;
+            }
         }
     }
 
@@ -596,10 +598,10 @@
 .n {
     &__left {
         position: absolute;
-        width: 0;
-        height: 0;
         top: 35px;
         left: 278px;
+        width: 0;
+        height: 0;
         border: {
             right: 95px solid transparent;
             bottom: 130px solid $black;
@@ -607,15 +609,15 @@
 
         &__fill {
             position: absolute;
-            top: 0px;
+            top: 0;
             left: -5px;
             width: 0;
             height: 0;
+            transform: scale(.81);
             border: {
                 right: 98px solid transparent;
                 bottom: 137px solid $yellow;
             }
-            transform: scale(.81);
         }
     }
 
@@ -625,8 +627,8 @@
         left: 323px;
         width: 40px;
         height: 119px;
-        background-color: $yellow;
         border: 5px solid $black;
+        background-color: $yellow;
     }
 
     &__shapes {
